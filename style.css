@@ -1,0 +1,344 @@
+/* 스타일 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a { padding: 0; border: 0; margin: 0; text-decoration: none; vertical-align: baseline;}
+li { list-style: none;}
+
+/* 헤더 */
+#header { 
+    padding: 20px 60px;
+    position: absolute;
+    width: 1783px;
+    z-index: 999;
+    background-color: #3C5A36;
+    position: fixed;
+}
+
+#header nav {
+    position: relative;
+}
+
+#header .logo {
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#header .nav_main {
+    text-align: center;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#header .nav_sub {
+    position: absolute;
+    top: 0; right: 0;
+}
+
+#header .nav_main li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px 30px;
+}
+
+#header .nav_main a {
+    color: white;
+}
+
+#header .nav_sub li {
+    display: inline-block;
+    margin-top: 16px;
+}
+
+/* drop-down 메뉴
+#drop-down {
+    padding: 20px 795px;
+    padding-bottom: 40px;
+    position: absolute;
+    position: fixed;
+    width: 1783px;
+    height: 100px;
+    z-index: 999;
+    background-color: white;
+    top: 100px;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#drop-down a {
+    display: inline-block;
+    padding-top: 12px;
+    color: #3C5A36;
+}
+*/
+
+/* 위로가기 버튼 */
+.up {
+    position: absolute;
+    bottom: 40px; right: 60px;
+    position: fixed;
+    z-index: 9999;
+}
+
+/* mainpage */
+.background1 {
+    width: 100%;
+    height: 5859px;
+    background-image: url(img/mainpage/background.png);
+    background-repeat: no-repeat;
+}
+
+.readmore {
+    position: absolute;
+    top: 756px; right: 505px;
+}
+
+.mainpage_button1 {
+    position: absolute;
+    top: 3064px;
+    left: 776px;
+}
+
+.mainpage_button2 {
+    position: absolute;
+    top: 5586px;
+    left: 782px;
+}
+
+.footer1 {
+    width: 100%;
+    position: absolute;
+    top: 5794px;
+    z-index: 999;
+}
+
+/* about-us page */
+.background2 {
+    width: 100%;
+    height: 6290px;
+    background-image: url(img/brand/background2.png);
+    background-repeat: no-repeat;
+}
+
+.footer2 {
+    width: 100%;
+    position: absolute;
+    top: 6290px;
+    z-index: 999;
+}
+
+/* '나만의 에르더마' page */
+.background3 {
+    width: 100%;
+    height: 4286px;
+    background-image: url(img/myown/background3.png);
+    background-repeat: no-repeat;
+}
+
+.myown_button1 {
+    position: absolute;
+    top: 2290px;
+    left: 418px;
+}
+
+.myown_button2 {
+    position: absolute;
+    top: 2860px;
+    left: 1292px;
+}
+
+.myown_button3 {
+    position: absolute;
+    top: 3960px;
+    left: 412px;
+}
+
+.footer3 {
+    width: 100%;
+    position: absolute;
+    top: 4286px;
+    z-index: 999;
+}
+
+/* drop the oil page */
+.background4 {
+    width: 100%;
+    height: 1080px;
+    background-image: url(img/dropthe/background4.png);
+    background-repeat: no-repeat;
+}
+
+.dropthe_button1 {
+    position: absolute;
+    top: 770px;
+    left: 800px;
+}
+
+.footer4 {
+    width: 100%;
+    position: absolute;
+    top: 1080px;
+    z-index: 999;
+}
+
+/* find your beauty page */
+.background5 {
+    width: 100%;
+    height: 5681px;
+    background-image: url(img/findyour/background5.png);
+    background-repeat: no-repeat;
+}
+
+.findyour_button1 {
+    position: absolute;
+    top: 770px;
+    left: 810px;
+}
+
+.findyour_button2 {
+    position: absolute;
+    top: 5460px;
+    left: 770px;
+
+}
+
+.scroll-down {
+    position: absolute;
+    top: 865px;
+    left: 900px;
+    z-index: 999;
+    width: 100px;
+    height: 100px;
+}
+
+.footer5 {
+    width: 100%;
+    position: absolute;
+    top: 5656px;
+    z-index: 999;
+}
+
+/* product page */
+.background6 {
+    width: 100%;
+    height: 2820px;
+    background-image: url(img/product/background6.png);
+    background-repeat: no-repeat;
+}
+
+.background6 ul {
+    width: 1220px;
+    position: absolute;
+    top: 1244px;
+    left: 360px;
+}
+
+.background6 li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-bottom: 70px;
+}
+
+.footer6 {
+    width: 100%;
+    position: absolute;
+    top: 2820px;
+    z-index: 999;
+}
+
+/* oil page */
+.oil-1 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-1.png);
+    background-repeat: no-repeat;
+}
+
+.oil-2 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-2.png);
+    background-repeat: no-repeat;
+}
+
+.oil-3 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-3.png);
+    background-repeat: no-repeat;
+}
+.oil-4 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-4.png);
+    background-repeat: no-repeat;
+}
+.oil-5 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-5.png);
+    background-repeat: no-repeat;
+}
+
+.oil-6 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-6.png);
+    background-repeat: no-repeat;
+}
+
+.oil-7 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-7.png);
+    background-repeat: no-repeat;
+}
+
+.oil-8 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-8.png);
+    background-repeat: no-repeat;
+}
+
+.oil-9 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-9.png);
+    background-repeat: no-repeat;
+}
+
+.oil-10 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-10.png);
+    background-repeat: no-repeat;
+}
+
+.oil-11 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-11.png);
+    background-repeat: no-repeat;
+}
+
+.oil-12 {
+    width: 100%;
+    height: 4560px;
+    background-image: url(img/oil/oil-12.png);
+    background-repeat: no-repeat;
+}
+
+.footer7 {
+    width: 100%;
+    position: absolute;
+    top: 4560px;
+    z-index: 999;
+}
